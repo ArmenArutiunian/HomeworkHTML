@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.container {
+   min-height:   700px;
+   min-width:  1200px;
+    /*border: 1px solid darkred;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.father{
+    border:2px solid silver;
+   height:  400px;
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.knopka{
+    background: coral;
+    border:1px solid black;
+    width: 120px;
+    height: 40px;
+  cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.knopka:hover{
+    background: black;
+    color: aliceblue;
+}
+.father>p{
+   padding: 30px;
+    color: black;
+}
+.icon{
+    font-size: 50px;
+    padding: 10px;
+color: #ee8c8c;
+
+}
+.father>h2{
+    color:darkslateblue ;
+}
+.icon2{
+    font-size:50px ;
+    pading:20px;
+    color: #ee8c8c;
+}
+

@@ -1,0 +1,115 @@
+.main{
+   border: 2px solid black;
+    height: 630px;
+    width: 830px;
+    border-radius: 2%;
+
+}
+.a{
+    background: brown;
+    height: 195px;
+    width: 99%;
+    margin: 3px 0 0 4px;
+    border-radius: 2%;
+    text-align: center;
+    vertical-align: center;
+    line-height: 165px;
+    color:white;
+
+}
+.box{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(112,8,74,1) 62%, rgba(121,9,77,0.8802871490393032) 67%, rgba(0,212,255,1) 100%);
+    border-radius: 2%;
+    text-align: center;
+    vertical-align: center;
+    line-height: 190px;
+    color: white;
+}
+.father-box{
+    width: 74%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: 5px 2px 0 4px;
+
+}
+.h{
+    height: 405px;
+    width: 24%;
+    background: darkblue;
+    margin: 5px 4px 0;
+    border-radius: 2%;
+    text-align: center;
+    vertical-align: center;
+    line-height: 380px;
+    color: white;
+}
+.father{
+    display: flex;
+}
+@media screen and (max-width: 900px) {
+    .father {
+        flex-direction: column;
+        /*display: flex;*/
+    }
+
+    .main {
+        height: 720px;
+        width: 520px;
+    }
+
+    .h {
+        height: 150px;
+        width: 400px;
+        vertical-align: center;
+        line-height: 150px;
+        color: darkred;
+        background: silver;
+        border-radius: 10%;
+        margin-left:44px ;
+
+    }
+
+    .father-box {
+        width: 400px;
+        row-gap: 5px;
+        column-gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 42px
+
+    }
+
+    .box {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        vertical-align: center;
+        line-height: 90px;
+        color: darkred;
+        background: silver;
+        border-radius: 10%;
+
+
+    }
+
+    .a {
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        vertical-align: center;
+        line-height: 90px;
+        color: darkred;
+        background: silver;
+        margin-top: 44px;
+        margin-left: 45px;
+        border-radius: 10%;
+    }
+}

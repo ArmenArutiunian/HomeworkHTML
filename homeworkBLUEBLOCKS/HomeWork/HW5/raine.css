@@ -1,0 +1,119 @@
+.boss{
+    height: 620px;
+    width:805px;
+    border:2px solid black;
+    border-radius: 2%;
+
+
+}
+
+.container {
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.father{
+    display: flex;
+}
+
+.a {
+    box-sizing: border-box;
+    height: 200px;
+    width: 99%;
+    background: deepskyblue;
+    border-radius: 3%;
+    /*margin: 2px;*/
+    margin: 5px 2px 0 2px;
+    color: red;
+    text-align: center;
+    vertical-align: center;
+    line-height: 60px;
+}
+.b{
+    height: 200px;
+    width: 595px;
+    background: darkgreen;
+    margin: 5px 2px 0 2px;
+    border-radius: 3%;
+    color: red;
+    text-align: center;
+    vertical-align: center;
+    line-height: 170px;
+
+
+}
+.f{
+    box-sizing: border-box;
+    height: 400px;
+    width: 200px;
+    background: deeppink;
+    margin: 5px 2px 0 2px;
+    border-radius: 3%;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    line-height: 85px;
+}
+.box{
+    height: 195px;
+    width: 195px;
+    background: navy;
+    display: flex;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    margin: 5px 2px 0 2px;
+    border-radius: 3%;
+    color: red;
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px;
+}
+@media  screen and (max-width:900px ){
+    .father{
+        flex-direction: column;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .a{
+        box-sizing: border-box;
+        width: 400px;
+        height: 70px;
+        border-radius: 15%;
+
+    }
+    .b{
+        width: 400px;
+        height: 170px;
+        border-radius: 15%;
+
+    }
+    .box{
+        width: 60px;
+        height: 60px;
+        margin-top: 25px;
+        border-radius: 15%;
+    }
+    .container{
+        width: 400px;
+        height: 250px;
+        padding-top: 5px;
+    }
+    .f{
+        width: 400px;
+        height: 100px;
+        margin-top: 32px;
+        border-radius: 15%;
+    }
+    .boss {
+        width: 420px;
+        height: 450px;
+        padding: 20px;
+    }
+    }
+
+

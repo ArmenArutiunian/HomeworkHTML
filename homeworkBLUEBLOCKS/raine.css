@@ -1,0 +1,60 @@
+
+
+.father{
+
+    height:800px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+    /*font-family: "Cambria Math, sans-serife";*/
+    padding: 10px;
+
+
+}
+.header {
+    background: dodgerblue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10%;
+
+}
+
+
+
+.footer{
+    background: dodgerblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.block{
+border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Candara", sans-serif;
+}
+

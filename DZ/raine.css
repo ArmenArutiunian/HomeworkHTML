@@ -1,0 +1,60 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.father{
+    height: 700px;
+    width: 1000px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.block{
+    border: 1px solid darkblue;
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botton{
+    color:black;
+    height: 50px;
+    width: 150px;
+    background:deepskyblue;
+   border-radius: 30%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.botton:hover{
+    color:white;
+    cursor: pointer;
+    background: black;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top:73px;
+    background: white;
+    color: darkred;
+}
+
