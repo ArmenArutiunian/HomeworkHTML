@@ -1,0 +1,343 @@
+.main {
+    border: 1px solid black;
+    height: 1500px;
+    width: 800px;
+
+}
+.A1 {
+    background: silver;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box-A1 {
+    height: 20px;
+    width: 120px;
+    background: black;
+    margin: 20px;
+}
+.A1-7 {
+    display: flex;
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 1500px;
+    flex-direction: column;
+    gap:5px;
+
+}
+.A2 {
+    display: flex;
+    gap: 5px;
+    height: 1410px;
+    width: 20%;
+    background: silver;
+    /*flex-direction: column;*/
+
+}
+
+.box-A2{
+    height: 20px;
+    width: 120px;
+    background: #19191c;
+    margin: 20px;
+}
+.A3-4{
+    display: flex;
+    /*border: 1px solid purple;*/
+    width:100%;
+    height: 500px;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.wrap{
+    display: flex;
+    /*flex-direction: column;*/
+    gap: 5px;
+}
+.A3{
+    height: 350px;
+    width: 100%;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-A3{
+    height: 300px;
+    width: 90%;
+    background:black;
+
+}
+.A4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background:silver;
+}
+.box-A4{
+    height: 110px;
+    width: 23%;
+    background: black;
+}
+.wrap3-7{
+    display: flex;
+    width: 100%;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    gap: 5px;
+}
+.A5-6{
+    display: flex;
+    /*flex-direction: column;*/
+    /*border: 1px solid darkred;*/
+    height: 800px;
+    width: 100%;
+    gap: 5px;
+}
+.A5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 800px;
+    background: silver;
+    flex-wrap: wrap;
+}
+.boxA5{
+    height: 100px;
+    width: 40%;
+    background: black;
+
+}
+.A6{
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    width: 25%;
+    height: 800px;
+    background: silver;
+}
+.boxA6{
+    width: 80px;
+    height: 40px;
+    background: black;
+}
+.wrapA6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.A7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: silver;
+    flex-direction: column;
+    gap: 7px;
+}
+.boxA7 {
+    height: 20px;
+    width: 90%;
+    background: black;
+}
+.boxA7B{
+    height: 20px;
+    width: 15%;
+    background: black;
+
+}
+.boxA6-new{
+    display: none;
+}
+
+
+@media screen and ( max-width:1100px ) {
+    .main{
+        height: 1880px;
+
+    }
+   .A2{
+       display: none;
+   }
+    .A1{
+        width: 80%;
+    }
+    .A3{
+        width: 80%;
+    }
+    .box-A3{
+        height: 250px;
+        width: 90%;
+    }
+    .A4{
+        display: flex;
+        /*justify-content: space-between;*/
+        flex-wrap: wrap;
+        width: 80%;
+        height: 600px;
+
+    }
+    .box-A4{
+
+        width: 40%;
+        height: 180px;
+    }
+    .A3-4{
+        height: 800px;
+
+    }
+    .A5{
+
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*flex-direction: column;*/
+        gap: 15px;
+
+        flex-wrap: wrap;
+    }
+    .A5-6{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    .boxA5:nth-child(1n+8){
+        display: none;
+    }
+    .boxA5:nth-child(7) {
+        height: 20px;
+    }
+
+
+    .boxA5{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 40%;
+        height:100px;
+
+        /*height: 25px;*/
+        /*width: 25px;*/
+    }
+    .A6{
+        /*display: flex;*/
+        /*flex-wrap: wrap;*/
+        /*justify-content: flex-start;*/
+        /*flex-direction: column;*/
+        width: 80%;
+    }
+    .wrapA6{
+        height: 400px;
+        display: flex;
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        gap: 10px;
+    }
+    .boxA6{
+        width: 40%;
+        height: 80px;
+    }
+    .A7{
+        height: 200px;
+        width: 80%;
+        display: flex;
+     flex-direction: column;
+    }
+    .boxA6:nth-child(4){
+        display: none;
+    }
+
+    .boxA6-new{
+        display: block;
+        height: 65%;
+        width: 40%;
+        background: black;
+    }
+}
+@media screen and ( max-width:800px ) {
+    .main{
+        height: 2200px;
+    }
+    .A1{
+        width: 60%;
+    }
+    .box-A1:nth-child(2){
+        display: none;
+    }
+    .box-A1{
+        width: 90%;
+    }
+    .A3{
+        width: 60%;
+        height: 250px;
+    }
+    .box-A3{
+        height: 80%;
+        width: 90%;
+    }
+    .A4{
+        width: 60%;
+        height: 400px;
+    }
+    .box-A4{
+        height: 40%;
+        width: 40%;
+    }
+    .A3-4{
+        height: 600px;
+    }
+    .A5{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .boxA5{
+        width: 90%;
+        height: 50px;
+    }
+    .boxA5:nth-child(6){
+        display: none;
+    }
+    .boxA5:nth-child(7){
+        width: 20%;
+    }
+    .A5-6{
+        height: 1300px;
+    }
+    .A6{
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+    .wrapA6{
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxA6-new{
+        height: 200px;
+        width: 90%;
+    }
+    .boxA6{
+        width: 90%;
+    }
+
+    .A7{
+        height: 80px;
+        width: 60%;
+    }
+}
